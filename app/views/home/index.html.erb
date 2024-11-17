@@ -1,47 +1,9 @@
-<div class="w-96 h-60 border border-gray-200 rounded-lg -mb-[-1px] shadow-lg">
-  <div class="grid grid-cols-[3fr,1fr,1fr,1fr,1fr,1fr] grid-rows-5 gap-0 h-full pb-2 pr-2">
-    <div class="border-b border-r border-gray-200 mb-2 mr-2">
-      <div class="border-b border-gray-200 h-full w-[calc(100%+2rem)] mt-[1px]"></div>
-      <div class="border-r border-gray-200 w-full h-[calc(100%+2rem)] ml-[1px]"></div>
-    </div>
-    <div class="border-b border-gray-200 flex justify-center items-center mb-2">JH</div>
-    <div class="border-b border-gray-200 flex justify-center items-center mb-2">LY</div>
-    <div class="border-b border-gray-200 flex justify-center items-center mb-2">PI</div>
-    <div class="border-b border-gray-200 flex justify-center items-center mb-2">GI</div>
-    <div class="border-b border-gray-200 flex justify-center items-center mb-2">T</div>
-    <div class="border-r border-gray-200 flex justify-center items-center mr-2">Jonathan H</div>
-    <div class="rounded-md bg-gray-300"></div>
-    <div class="rounded-md border border-white flex justify-center items-center text-green-600">2</div>
-    <div class="rounded-md border border-white flex justify-center items-center">-</div>
-    <div class="rounded-md border border-white flex justify-center items-center">-</div>
-    <div class="rounded-md border border-white flex justify-center items-center">2</div>
-
-    <div class="border-r border-gray-200 flex justify-center items-center mr-2">Lewis Y</div>
-    <div class="rounded-md border border-white flex justify-center items-center text-red-400">1</div>
-    <div class="rounded-md bg-gray-300 flex justify-center items-center"></div>
-    <div class="rounded-md border border-white flex justify-center items-center">-</div>
-    <div class="rounded-md border border-white flex justify-center items-center">-</div>
-    <div class="rounded-md border border-white flex justify-center items-center">1</div>
-    
-    <div class="border-r border-gray-200 flex justify-center items-center mr-2">Peter I</div>
-    <div class="rounded-md border border-white flex justify-center items-center">-</div>
-    <div class="rounded-md border border-white flex justify-center items-center">-</div>
-    <div class="rounded-md bg-gray-300 flex justify-center items-center"></div>
-    <div class="rounded-md border border-white flex justify-center items-center">-</div>
-    <div class="rounded-md border border-white flex justify-center items-center">-</div>
-
-    <div class="border-r border-gray-200  mr-2">
-      <div class="border-r border-gray-200 w-full h-[calc(100%+0.5rem)] ml-[1px] pb-2 flex justify-center items-center">
-        Georgie I
-      </div>
-    </div>
-    <div class="rounded-md border border-white flex justify-center items-center">-</div>
-    <div class="rounded-md border border-white flex justify-center items-center">-</div>
-    <div class="rounded-md border border-white flex justify-center items-center">-</div>
-    <div class="rounded-md bg-gray-300 flex justify-center items-center"></div>
-    <div class="rounded-md border border-white flex justify-center items-center">-</div>
-  </div>
+<div class="w-full grid grid-cols-3 gap-y-10">
+  <% 9.times do %>
+    <%= render '/matches/table' %>
+  <% end %>
 </div>
+
 
 
 
